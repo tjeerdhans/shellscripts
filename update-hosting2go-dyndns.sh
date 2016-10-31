@@ -7,7 +7,7 @@ OLDWANIP=`cat wanip`
 
 if [ $WANIP = "$OLDWANIP" ]
 then
-  echo "wan ip hasn't changed, exiting."
+  # echo "wan ip hasn't changed, exiting."
   exit 0
 fi
 
